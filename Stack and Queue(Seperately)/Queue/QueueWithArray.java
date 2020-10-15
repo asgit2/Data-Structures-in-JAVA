@@ -7,7 +7,6 @@ public class QueueWithArray {
 	private int size;
 	
 	public QueueWithArray() {
-		// TODO Auto-generated constructor stub
 		arr = new int[5];
 		front = -1;
 		rear = -1;

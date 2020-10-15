@@ -3,7 +3,6 @@ import java.util.Stack;
 public class CheckRedundantBrackets {
 
 	public static boolean checkRedundantBrackets(String input) {
-		// Write your code here
 		Stack<Character> stack = new Stack<>();
 		for(int i=0;i<input.length();i++) {
 

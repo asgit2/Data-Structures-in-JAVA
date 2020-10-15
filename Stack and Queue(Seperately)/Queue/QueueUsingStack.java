@@ -35,7 +35,6 @@ public class QueueUsingStack<T> {
 			stack2.push(stack1.pop());
 		}
 		T dataT  = stack1.peek();
-//		stack2.push(stack1.pop());
 		while(!stack2.isEmpty()) {
 			stack1.push( stack2.pop() );
 		}

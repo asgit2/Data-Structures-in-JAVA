@@ -25,11 +25,7 @@ public class ReverseQueue {
 		for(int i=1;i<= queue.size() - k ;i++){
             queue.add(queue.poll());
         }
-		return queue;
-
-		
-		
-		
+		return queue;		
 	}
 
 }

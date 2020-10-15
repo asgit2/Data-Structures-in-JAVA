@@ -6,7 +6,6 @@ public class QueueUsingLL<T> {
 	private int size;
 	
 	public QueueUsingLL() {
-		// TODO Auto-generated constructor stub
 		head=null;
 		tail=null;
 		size=0;

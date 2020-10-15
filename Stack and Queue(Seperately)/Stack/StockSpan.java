@@ -2,7 +2,6 @@ import java.util.Stack;
 public class StockSpan {
 	
     public static int[] stockSpan(int[] price) {
-        // Write your code here
         int[] span = new int[price.length];
         Stack<Integer> stack = new Stack<Integer>();
         span[0] = 1;
